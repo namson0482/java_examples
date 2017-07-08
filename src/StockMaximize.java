@@ -1,19 +1,10 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
 
 public class StockMaximize {
 	
-	public int value_1 = 0;
-	
-	public int value_2 = 0;
-	
-	public void func_1(int b) {
-		b = b * b;
-		System.out.println(b);
-	}
-	
-	public static final void func_2(StockMaximize s) {
-		s.value_1 = 10;
-	}
 	
 	private static long[] getElements(String elements, int size) {
 
@@ -75,14 +66,7 @@ public class StockMaximize {
 
 	public static void main(String[] args) {
 		
-		StockMaximize s = new StockMaximize();
-		int a = 6;
-		s.func_1(a);
-		System.out.println(a);
-		System.out.println(s.value_1);
-		StockMaximize.func_2(s);
-		System.out.println(s.value_1);
-		/*BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 		try {
 			int testCases = Integer.parseInt(input.readLine().trim());
 
@@ -108,6 +92,6 @@ public class StockMaximize {
 		} catch (IOException ioe) {
 			System.out.println("Caught IOException: Unable to read inputs from stdin");
 			ioe.getStackTrace();
-		}*/
+		}
 	}
 }	
