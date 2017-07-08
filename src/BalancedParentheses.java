@@ -1,7 +1,3 @@
-import java.util.Arrays;
-import java.util.List;
-
-
 public class BalancedParentheses {
 //
 	private static String[] checkBalancedParentheses(String[] values){
@@ -46,7 +42,6 @@ public class BalancedParentheses {
 		}
 		return result;
 	}
-	
 	
 //	private static String[] checkBalancedParentheses(String[] values){
 //		String []result = new String[values.length];
