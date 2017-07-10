@@ -1,5 +1,5 @@
 public class BalancedParentheses {
-//
+
 	private static String[] checkBalancedParentheses(String[] values){
 		
 		String []result = new String[values.length];

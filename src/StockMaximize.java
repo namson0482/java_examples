@@ -4,8 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 public class StockMaximize {
-	
-	
+
 	private static long[] getElements(String elements, int size) {
 
 		String[] elementsArray = elements.trim().split(" ");
